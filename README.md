@@ -16,7 +16,7 @@ Welcome to my personal portfolio website! This is where I showcase my projects, 
 - **Contact:** Easy access to my social profiles and an option to get in touch with me directly.
 ## Tech Stack
 
- - **Frontend:** React.js, Tailwind CSS, Material UI
+ - **Frontend:** React.js, Tailwind CSS
  - **Version Control:** Git/GitHub
 
 ## Installation
