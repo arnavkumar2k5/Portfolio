@@ -2,6 +2,9 @@
 
 Welcome to my personal portfolio website! This is where I showcase my projects, skills, and experiences as a passionate front-end developer.
 
+![Project-3](https://github.com/user-attachments/assets/a1386186-2a90-4240-8ab5-ba5927c743af)
+
+
 ## Features
 
 - **Responsive Design:** Optimized for viewing on all devices, from desktops to mobile phones.
