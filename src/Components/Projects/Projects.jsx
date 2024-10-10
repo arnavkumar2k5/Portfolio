@@ -83,7 +83,7 @@ function Projects() {
         </div>
 
         <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
-          <h1 className="text-2xl p-3 bg-yellow-400 w-full">Lorem</h1>
+          <h1 className="text-2xl p-3 bg-yellow-400 w-full">Portfolio</h1>
           <img
             src="/Project/Project-3.png"
             alt="Project thumbnail"
