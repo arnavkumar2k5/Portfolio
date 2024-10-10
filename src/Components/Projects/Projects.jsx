@@ -85,17 +85,17 @@ function Projects() {
         <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">Lorem</h1>
           <img
-            src="/Project/Project-3.jpg"
+            src="/Project/Project-3.png"
             alt="Project thumbnail"
             className="w-full md:h-full bg-gray-900 transition-transform duration-500 group-hover:scale-110"
           />
           <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
             <p className="text-white mb-5 text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat placeat, nemo, possimus qui, eaque molestias ad fuga autem quam vero provident eveniet labore.
+            This portfolio website is built using React.js, Tailwind CSS, js, tsparticles, and is made to showcases my personal projects, and contact details in a visually appealing and responsive layout, ensuring an optimal user experience across all devices.
             </p>
             <div className="flex gap-3">
               <a
-                href="https://github.com/arnavkumar2k5"
+                href="https://github.com/arnavkumar2k5/Portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -105,7 +105,7 @@ function Projects() {
                 </button>
               </a>
               <a
-                href="/"
+                href="https://portfolio-six-gray-62.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
