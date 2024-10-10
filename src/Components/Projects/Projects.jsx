@@ -2,14 +2,15 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="p-4 md:p-10 w-full mb-20 mt-[20rem] md:mt-0 md:mb-10" id="project">
+    <div
+      className="p-4 md:p-10 w-full mb-20 mt-[20rem] md:mt-0 md:mb-10"
+      id="project"
+    >
       <h1 className="text-4xl md:text-7xl p-5 w-full font-bold border-b-2 md:border-none text-center">
         PROJECTS
       </h1>
       <div className="border-b border-gray-300 w-1/3 mx-auto mb-20"></div>
-
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-10">
-        
         <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">Blog-project</h1>
           <img
@@ -19,7 +20,8 @@ function Projects() {
           />
           <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
             <p className="text-white mb-5 text-xl">
-              Built a responsive blog site with React, Tailwind, Appwrite, Redux, and TinyMCE. Added a news carousel and category filtering.
+              Built a responsive blog site with React, Tailwind, Appwrite,
+              Redux, and TinyMCE. Added a news carousel and category filtering.
             </p>
             <div className="flex gap-3">
               <a
@@ -55,7 +57,8 @@ function Projects() {
           />
           <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
             <p className="text-white mb-5 text-xl">
-              Developed a responsive blog with React, Tailwind, Appwrite, Redux, and TinyMCE. Added a news carousel and category filtering.
+              Developed a responsive blog with React, Tailwind, Appwrite, Redux,
+              and TinyMCE. Added a news carousel and category filtering.
             </p>
             <div className="flex gap-3">
               <a
@@ -91,7 +94,10 @@ function Projects() {
           />
           <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
             <p className="text-white mb-5 text-xl">
-            This portfolio website is built using React.js, Tailwind CSS, js, tsparticles, and is made to showcases my personal projects, and contact details in a visually appealing and responsive layout, ensuring an optimal user experience across all devices.
+              This portfolio website is built using React.js, Tailwind CSS, js,
+              tsparticles, and is made to showcases my personal projects, and
+              contact details in a visually appealing and responsive layout,
+              ensuring an optimal user experience across all devices.
             </p>
             <div className="flex gap-3">
               <a
@@ -117,7 +123,6 @@ function Projects() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

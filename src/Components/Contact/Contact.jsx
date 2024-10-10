@@ -10,7 +10,6 @@ function Contact() {
           <div className="border-b border-gray-300 w-1/3 mx-auto mb-6"></div>
         </div>
         <div className="flex flex-col md:flex-row p-5 md:p-8 gap-6 md:gap-10">
-          
           <div className="w-full md:w-1/2 flex flex-col space-y-4 md:space-y-6">
             <a
               href="mailto:arnavkumar2k5@gmail.com"
@@ -49,7 +48,6 @@ function Contact() {
               <p className="text-sm md:text-lg text-gray-700">LinkedIn</p>
             </a>
           </div>
-
           <div className="w-full md:w-1/2 flex justify-center items-center m-auto mt-6 md:mt-0">
             <div className="bg-yellow-400 rounded-full overflow-hidden shadow-lg transform transition-transform duration-300 hover:rotate-3 hover:scale-105">
               <img
