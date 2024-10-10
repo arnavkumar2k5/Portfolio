@@ -9,16 +9,16 @@ function Header() {
   };
 
   return (
-    <div className="bg-[#1A1A1E] bg-opacity-80 backdrop-blur-md shadow-lg fixed w-full top-0 z-50 h-20 md:h-auto md:p-10">
+    <div className="bg-[#1A1A1E] bg-opacity-80 backdrop-blur-md shadow-lg fixed w-full top-0 z-50 p-4 md:p-10">
       <nav className="flex justify-between items-center px-4 md:px-20">
         
-        <div className="text-2xl md:text-3xl text-gray-300 hover:text-cyan-400 transition-colors duration-300 cursor-pointer mb-7 md:mb-auto">
+        <div className="text-2xl md:text-3xl text-gray-300 hover:text-cyan-400 transition-colors duration-300 cursor-pointer">
           <Link to="/" smooth={true} duration={500}>
              Arnav
           </Link>
         </div>
 
-        <div className="md:hidden absolute right-5 mb-7 md:mb-auto">
+        <div className="md:hidden absolute right-5">
           <button onClick={toggleMenu} className="text-3xl text-gray-300">
             {menuOpen ? '✕' : '☰'}
           </button>
