@@ -100,7 +100,7 @@ function Footer() {
       </div>
       <div className="mt-8 text-center text-xl text-gray-400">
         <p>
-          Designed with ❤️ by <span className="text-orange-400">Arnav Kumar</span>
+          Designed with ❤️ by <br className="md:hidden"/> <span className="text-orange-400">Arnav Kumar</span>
         </p>
       </div>
     </footer>

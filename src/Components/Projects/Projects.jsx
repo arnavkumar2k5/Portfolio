@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <div
-      className="p-4 md:p-10 w-full mb-20 mt-[20rem] md:mt-0 md:mb-10"
+      className="p-4 md:p-10 w-full mb-20 md:mb-10"
       id="project"
     >
       <h1 className="text-4xl md:text-7xl p-5 w-full font-bold border-b-2 md:border-none text-center">
