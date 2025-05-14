@@ -12,7 +12,7 @@ function Projects() {
       <div className="border-b border-gray-300 w-1/3 mx-auto mb-20"></div>
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-10">
         <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
-          <h1 className="text-2xl p-3 bg-yellow-400 w-full">Blog-project</h1>
+          <h1 className="text-2xl p-3 bg-yellow-400 w-full">ConvoNest</h1>
           <img
             src="/Project/Project-8.png"
             alt="Project thumbnail"
@@ -24,7 +24,7 @@ function Projects() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://github.com/arnavkumar2k5/Blog-Project"
+                href="https://github.com/arnavkumar2k5/ConvoNest-main"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -34,7 +34,7 @@ function Projects() {
                 </button>
               </a>
               <a
-                href="https://blog-project-jet-iota.vercel.app/"
+                href="https://convonest-mn3l.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
