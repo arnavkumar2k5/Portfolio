@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import '../App.css'
 
 const TypeEffect = ({
-  words = [" Frontend Developer", " Crafting dynamic web experiences.", " Let's Explore Together"],
-  colors = ["red", "green", "yellow"],
+  words = [" Full-Stack Developer", " Crafting dynamic web experiences.", " Let's Explore Together"],
+  colors = ["#00E5FF", "#39FF14", "#FFD700"],
 }) => {
   const [visible, setVisible] = useState(true);
   const [letterCount, setLetterCount] = useState(0);

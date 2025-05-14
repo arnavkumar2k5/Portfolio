@@ -14,6 +14,41 @@ function Projects() {
         <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">Blog-project</h1>
           <img
+            src="/Project/Project-8.png"
+            alt="Project thumbnail"
+            className="w-full md:h-full bg-gray-900 transition-transform duration-500 group-hover:scale-110"
+          />
+          <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
+            <p className="text-white mb-5 text-xl">
+              ConvoNest is a real-time chat application built using the MERN stack and modern web technologies like Socket.IO. It enables seamless peer-to-peer communication with features such as instant messaging, emoji support, and file sharing for an interactive user experience.
+            </p>
+            <div className="flex gap-3">
+              <a
+                href="https://github.com/arnavkumar2k5/Blog-Project"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+              >
+                <button className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition duration-300">
+                  Github
+                </button>
+              </a>
+              <a
+                href="https://blog-project-jet-iota.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+              >
+                <button className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition duration-300">
+                  Visit
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
+          <h1 className="text-2xl p-3 bg-yellow-400 w-full">Blog-project</h1>
+          <img
             src="/Project/Project-7.png"
             alt="Project thumbnail"
             className="w-full md:h-full bg-gray-900 transition-transform duration-500 group-hover:scale-110"

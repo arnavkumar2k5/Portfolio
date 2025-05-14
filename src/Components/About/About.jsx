@@ -14,10 +14,10 @@ function About() {
               I'm Arnav Kumar
             </p>
             <p className="text-xl md:text-2xl mt-2 text-center lg:text-start">
-              Frontend Developer
+              Full-Stack Developer
             </p>
             <p className="mt-4 mb-6 text-justify">
-              I'm from New Delhi, India. Currently pursuing my B.Tech in Information Technology from Maharaja Surajmal Institute of Technology, New Delhi. As a passionate web developer, I'm on a journey to becoming the best version of myself. I specialize in front-end development with a focus on React JS and JavaScript. I enjoy crafting clean, responsive, and dynamic web applications using tools like Tailwind CSS, Material UI, and Redux.
+              I'm from New Delhi, India, and currently pursuing my B.Tech in Information Technology from Maharaja Surajmal Institute of Technology, New Delhi. As a passionate web developer, I'm on a journey to become the best version of myself. I've completed an internship and worked on several freelance projects, building everything from real-time chat applications to full-featured blog platforms. I love turning ideas into functional, user-friendly web experiences. If you enjoy my work, let’s team up and build something incredible!
             </p>
           </div>
           <div className="lg:w-1/2 p-5">
