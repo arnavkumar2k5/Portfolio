@@ -46,7 +46,7 @@ function Home() {
               <img
                 src="/Contact/mail.png"
                 alt="mail"
-                className="h-12 md:h-20"
+                className="h-12 md:h-16"
               />
             </a>
             <a
@@ -57,7 +57,7 @@ function Home() {
               <img
                 src="/Contact/github.png"
                 alt="github"
-                className="h-12 md:h-20"
+                className="h-12 md:h-16"
               />
             </a>
             <a
@@ -68,7 +68,7 @@ function Home() {
               <img
                 src="/Contact/twitter.png"
                 alt="twitter"
-                className="h-12 md:h-20"
+                className="h-12 md:h-16"
               />
             </a>
             <a
@@ -78,7 +78,7 @@ function Home() {
             >
               <img
                 src="/Contact/linkedin.png"
-                className="h-12 md:h-20"
+                className="h-12 md:h-16"
                 alt="linkedin"
               />
             </a>

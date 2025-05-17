@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-[#1A1A1E] text-gray-300 py-12 px-10 w-screen">
+    <footer className="bg-[#1A1A1E] text-gray-300 py-12 md:px-10 w-screen">
       <div className="flex flex-col md:flex-row justify-between mx-10 items-start gap-10">
         <div className="mb-8 md:mb-0 w-full md:w-2/6 pl-5 pt-5">
           <h2 className="text-2xl md:text-3xl font-semibold text-start text-white">
@@ -20,7 +20,7 @@ function Footer() {
           <h3 className="text-2xl md:text-3xl font-semibold text-white text-center md:ml-5">
             Contact Info
           </h3>
-          <div className="flex m-auto justify-center">
+          <div className="flex flex-col md:flex-row m-auto justify-center">
             <a
               href="mailto:arnavkumar2k5@gmail.com"
               target="_blank"
@@ -32,7 +32,7 @@ function Footer() {
                 alt="mail"
                 className="h-10 md:h-12"
               />
-
+              <p className="md:text-lg text-white text-base md:hidden">arnavkumar2k5@gmail.com</p>
               <span className="absolute top-20 -translate-x-1/2 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
                 arnavkumar2k5@gmail.com
               </span>
@@ -49,6 +49,7 @@ function Footer() {
                 alt="github"
                 className="h-10 md:h-12"
               />
+              <p className="md:text-lg text-white text-base md:hidden">GitHub</p>
               <span className="absolute top-20 left-1/3 -translate-x-1/2 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
                 arnavkumar2k5
               </span>
@@ -64,6 +65,7 @@ function Footer() {
                 alt="twitter"
                 className="h-10 md:h-12"
               />
+              <p className="md:text-lg text-white text-base md:hidden">X.com</p>
               <span className="absolute top-20 left-1/3 -translate-x-1/2 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
                 Arnav_2k5
               </span>
@@ -79,6 +81,7 @@ function Footer() {
                 className="h-10 md:h-12"
                 alt="linkedin"
               />
+              <p className="md:text-lg text-white text-base md:hidden">LinkedIn</p>
               <span className="absolute top-20 left-1/3 -translate-x-1/2 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
                 https://www.linkedin.com/in/arnav-kumar-55a0a6276/
               </span>
