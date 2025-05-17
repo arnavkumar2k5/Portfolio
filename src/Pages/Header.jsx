@@ -12,7 +12,7 @@ function Header() {
     <div className="bg-[#1A1A1E] bg-opacity-80 backdrop-blur-md shadow-lg fixed w-full top-0 z-50 md:p-10">
       <nav className="flex justify-between items-center px-4 md:px-20">
         
-        <div className="text-2xl md:text-3xl text-gray-300 hover:text-cyan-400 transition-colors duration-300 cursor-pointer">
+        <div className="text-2xl md:text-2xl text-gray-300 hover:text-cyan-400 transition-colors duration-300 cursor-pointer">
           <Link to="/" smooth={true} duration={500}>
              Arnav
           </Link>
@@ -24,7 +24,7 @@ function Header() {
           </button>
         </div>
 
-        <ul className="md:flex justify-center gap-5 text-xl md:text-2xl text-transparent md:text-gray-300 cursor-pointer">
+        <ul className="md:flex justify-center gap-5 text-xl md:text-xl text-transparent md:text-gray-300 cursor-pointer">
           <li className="hover:text-cyan-400 transition-colors duration-300">
             <Link to="/" smooth={true} duration={500}>
               Home

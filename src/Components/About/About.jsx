@@ -3,13 +3,13 @@ import Carousel from "../Carousel/Carousel";
 
 function About() {
   return (
-    <div id="about" className="relative bg-[#D1D5DB] text-black py-10 px-6 lg:py-20 lg:px-20">
+    <div id="about" className="relative bg-[#D1D5DB] text-black py-10 px-6 lg:py-20 lg:px-60">
       <div className="max-w-screen-xl m-auto">
         <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold text-black mb-10 md:mb-16 text-center">
           ABOUT <span className="text-purple-700">ME</span>
         </h2>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
-          <div className="lg:w-1/2 text-base md:text-lg lg:text-2xl leading-relaxed text-black">
+          <div className="lg:w-1/2 text-base md:text-lg lg:text-xl leading-relaxed text-black">
             <p className="text-cyan-400 text-4xl md:text-5xl text-center lg:text-start">
               I'm Arnav Kumar
             </p>

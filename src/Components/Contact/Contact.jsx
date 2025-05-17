@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact" className="bg-[#D1D5DB] p-5 md:p-10 min-h-screen flex items-center justify-center">
-      <div className="border-2 rounded-3xl border-black w-full md:w-4/5 lg:w-3/4 xl:w-2/3 m-auto bg-white shadow-lg">
+    <div id="contact" className="bg-[#D1D5DB] p-5 md:p-20 min-h-screen flex items-center justify-center">
+      <div className="border-2 rounded-3xl md:border-black w-full md:w-4/5 lg:w-3/4 xl:w-2/3 m-auto bg-white shadow-2xl">
         <div className="m-5 md:m-10 text-center">
           <h1 className="text-black text-3xl md:text-5xl lg:text-7xl font-bold mb-4">Contact</h1>
           <p className="text-base md:text-lg text-gray-600 mb-8">Feel free to reach out!</p>

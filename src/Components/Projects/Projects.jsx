@@ -3,15 +3,15 @@ import React from "react";
 function Projects() {
   return (
     <div
-      className="p-4 md:p-10 w-full mb-20 md:mb-10"
+      className="p-4 md:px-32 w-full mb-20 md:mb-10"
       id="project"
     >
       <h1 className="text-4xl md:text-7xl p-5 w-full font-bold border-b-2 md:border-none text-center">
         PROJECTS
       </h1>
       <div className="border-b border-gray-300 w-1/3 mx-auto mb-20"></div>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-10">
-        <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-10 md:gap-16">
+        <div className="relative w-full md:w-[27rem] md:h-[17rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">ConvoNest</h1>
           <img
             src="/Project/Project-8.png"
@@ -19,8 +19,8 @@ function Projects() {
             className="w-full md:h-full bg-gray-900 transition-transform duration-500 group-hover:scale-110"
           />
           <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
-            <p className="text-white mb-5 text-xl">
-              ConvoNest is a real-time chat application built using the MERN stack and modern web technologies like Socket.IO. It enables seamless peer-to-peer communication with features such as instant messaging, emoji support, and file sharing for an interactive user experience.
+            <p className="text-white mb-5 text-lg">
+              ConvoNest is a real-time chat app built with the MERN stack and Socket.IO, offering instant messaging, emoji support, and file sharing for a smooth, interactive experience.
             </p>
             <div className="flex gap-3">
               <a
@@ -46,7 +46,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
+        <div className="relative w-full md:w-[27rem] md:h-[17rem border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">Blog-project</h1>
           <img
             src="/Project/Project-7.png"
@@ -83,7 +83,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
+        <div className="relative w-full md:w-[27rem] md:h-[17rem border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">CryptoNexus</h1>
           <img
             src="/Project/Project-2.png"
@@ -120,7 +120,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="relative w-full md:w-[35rem] border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
+        <div className="relative w-full md:w-[27rem] md:h-[17rem border-2 border-white rounded-lg shadow-lg overflow-hidden group transform transition-transform duration-500 hover:rotate-3">
           <h1 className="text-2xl p-3 bg-yellow-400 w-full">Portfolio</h1>
           <img
             src="/Project/Project-3.png"
@@ -128,11 +128,8 @@ function Projects() {
             className="w-full md:h-full bg-gray-900 transition-transform duration-500 group-hover:scale-110"
           />
           <div className="md:absolute md:inset-0 bg-gray-900 bg-opacity-75 p-5 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-start">
-            <p className="text-white mb-5 text-xl">
-              This portfolio website is built using React.js, Tailwind CSS, js,
-              tsparticles, and is made to showcases my personal projects, and
-              contact details in a visually appealing and responsive layout,
-              ensuring an optimal user experience across all devices.
+            <p className="text-white mb-5 text-lg">
+              This portfolio website, built with React.js, Tailwind CSS, and tsparticles, showcases about me & my projects and contact details in a responsive, visually appealing layout.
             </p>
             <div className="flex gap-3">
               <a
